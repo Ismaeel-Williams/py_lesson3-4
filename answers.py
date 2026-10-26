@@ -1,14 +1,20 @@
 #Question 1
+x = 0
+y = 0
 x += 3;
 y *= 2;
 result = x / y;
 print(result);
 
 #Question 2
+a = float(input("Enter a value for a: "));
+b = float(input("Enter a value for b: "));
+c = float(input("Enter a value for c: "));
 c1 = (a > b);
 c2 = (b % 2 == 0);
 c3 = (c <= a);
-final_condition if(c1):
+final_condition = False;
+if(c1):
     final_condition = True;
 elif(c2 and c3):
     final_condition = True;
